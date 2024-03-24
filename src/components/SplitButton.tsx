@@ -1,4 +1,3 @@
-import { Pressable, Text } from "react-native";
 import type { Timer } from "react-use-precision-timer";
 import { Button } from "./Button";
 

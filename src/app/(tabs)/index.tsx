@@ -18,7 +18,6 @@ export default function App() {
 
   useEffect(() => {
     if (!split) return;
-    console.log(split.metering);
     const newSplits = [...splits];
     // Ensure the current split index is valid and adjust if necessary
     if (currentSplitIndex >= newSplits.length) {

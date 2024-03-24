@@ -1,6 +1,5 @@
 import { Audio } from "expo-av";
-import { useEffect, useState } from "react";
-import { Pressable, Text } from "react-native";
+import { useState } from "react";
 import { Timer } from "react-use-precision-timer";
 import { Button } from "./Button";
 import { useAtom } from "jotai";

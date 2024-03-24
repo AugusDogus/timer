@@ -1,11 +1,10 @@
 import { Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 import { backgroundLevelAtom, shotLevelAtom } from "../../atoms";
-import { SetStateAction, useAtom } from "jotai";
-import { useEffect, useState } from "react";
+import { useAtom } from "jotai";
+import { useState } from "react";
 import { Button } from "../../components/Button";
 import { Audio } from "expo-av";
-import { Timer, useStopwatch } from "react-use-precision-timer";
 
 export default function Settings() {
   const [backgroundLevel, setBackgroundLevel] = useAtom(backgroundLevelAtom);

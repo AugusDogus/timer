@@ -12,7 +12,6 @@ export function Button({
   children: string;
   disabled?: boolean;
 }) {
-  console.log(_className);
   return (
     <Pressable
       className={cn("p-2 m-2 rounded-md bg-blue-500", _className)}
