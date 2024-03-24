@@ -1,5 +1,6 @@
 import { Pressable, Text } from "react-native";
 import type { Timer } from "react-use-precision-timer";
+import { Button } from "./Button";
 
 export function SplitButton({
   timer,
@@ -30,8 +31,8 @@ export function SplitButton({
   };
 
   return (
-    <Pressable className="p-2 bg-green-500" onPress={onPress}>
-      <Text className="font-semibold text-center text-white">Split</Text>
-    </Pressable>
+    <Button _className="bg-green-500" onPress={onPress}>
+      Split
+    </Button>
   );
 }
